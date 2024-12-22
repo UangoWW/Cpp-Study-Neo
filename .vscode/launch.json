@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "MIMode": "gdb",
+      "args": [],
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "internalConsoleOptions": "neverOpen",
+      "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe",
+      "name": "启动！",
+      "preLaunchTask": "gcc single file build",
+      "program": "D:\\ceijiajia\\Study NEO\\.vscode\\runner.exe",
+      "request": "launch",
+      "setupCommands": [
+        {
+          "ignoreFailures": true,
+          "text": "-enable-pretty-printing"
+        }
+      ],
+      "stopAtEntry": false,
+      "type": "cppdbg"
+    }
+  ],
+  "version": "0.2.0"
+}
